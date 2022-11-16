@@ -17,10 +17,9 @@ namespace Sistema_de_registro_bibliotecario
         public Form1()
         {
             InitializeComponent();
-            matriz[0,1]="2";
+            
         }
-        string[,] matriz = new string[3, 2];
-        
+    
         private void BtnIngreso_Click(object sender, EventArgs e)
         {
             if(TxtUser.Text != "" && TxtPass.Text != "")
